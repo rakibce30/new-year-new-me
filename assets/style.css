@@ -187,14 +187,6 @@ footer {
     display: block;
     margin-right: 10px; 
 }
-/* .footer-right {
-    display: flex;
-    flex-direction: column;
-}
-.footer-right > *:not(:last-child) {
-    display: block;
-    margin-bottom: 10px; 
-} */
 .footer-right .footer-inp {
     padding: 11px 10px;
     display: block;
