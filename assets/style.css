@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -108,7 +108,7 @@ header {
 }
 .about-title {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .about-right ul li {
     list-style: none;
@@ -121,7 +121,7 @@ header {
 .plans-title {
     text-align: center;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 50px;
 }
 .plans-wrap {
@@ -154,7 +154,7 @@ header {
     margin-bottom: 25px;
     color: #fff;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Footer CSS */
@@ -177,7 +177,7 @@ footer {
 }
 .footer-title {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
 }
 .social-icon {
     display: flex;
