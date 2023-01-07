@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+} 
+.btn {
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.btn-primary {
+    background-color: #F15B22;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #fff;
+    color: #F15B22;
+}
+.txt-secondary {
+    color: #737272;
+}
+.txt-white {
+    color: #fff;
+}
+.txt-black {
+    color: #000;
+}
+p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.check-mark {
+    color: #16D887;
+}
+
+/* Header CSS */
+header {
+    background-image: url(./images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner {
+    width: 100%;
+}
+.banner-items {
+    width: 300px;
+    text-align: right;
+    float: right; 
+}
+.banner-items > *:not(:last-child) {
+    display: block;
+    margin-bottom: 20px; 
+}
+.banner-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* About CSS End */
+#about {
+    margin: 60px 0;
+}
+.about-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-left {
+    width: 500px;
+}
+.about-left img {
+    width: 80%;
+}
+.about-right {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.about-right > *:not(:last-child) {
+    display: block;
+    margin-bottom: 10px; 
+}
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-right ul li {
+    list-style: none;
+}
+
+/* My Plans CSS */
+#plans {
+    margin-bottom: 60px;
+}
+.plans-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.plans-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plans-item {
+    text-align: center;
+}
+.plans-item img {
+    width: 80px;
+}
+.plans-item-title {
+    margin: 8px 0;
+}
+
+/* Contact CSS */
+
+.contact-wrap {
+    padding: 50px 30px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    background-image: url(./images/watch.png), url(./images/gradient2.png);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+.contact-title {
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #000;
+    padding: 60px 0;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-left > *:not(:last-child) {
+    display: block;
+    margin-bottom: 10px; 
+}
+.footer-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.social-icon {
+    display: flex;
+    flex-direction: row;
+}
+.social-icon > *:not(:last-child) {
+    display: block;
+    margin-right: 10px; 
+}
+/* .footer-right {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right > *:not(:last-child) {
+    display: block;
+    margin-bottom: 10px; 
+} */
+.footer-right .footer-inp {
+    padding: 11px 10px;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    width: 300px;
+    margin: 20px 0 15px;
+}
